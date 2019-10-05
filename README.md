@@ -9,3 +9,5 @@ This function create two columns from a page.
 This function cut a part of a page in the way we want.
 ## Merge two image
 This function merge two image vertically.
+# The goal of this project
+I wanted to export the txt of a book. I had pages of the book at image format and I wanted to convert these with an Iranian OCR system. But this system could not recognize two columns page correctly. So I should cut coulmns and merge these vertically. And this system wanted money for each page, so if I had fewer pages, I paid fewer. So I used this code to merged four pages in one page.

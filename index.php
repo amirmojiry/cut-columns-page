@@ -95,5 +95,3 @@ include_once 'functions.php';
 		</center>
 	</body>
 </html>
-
-

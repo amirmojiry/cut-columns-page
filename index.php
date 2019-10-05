@@ -7,7 +7,7 @@ include_once 'functions.php';
 <html>
 	<head>
 		<title>
-			برش ستون از صفحه
+			Cut column from page
 		</title>
 		<style>
 			img.column {
@@ -29,28 +29,28 @@ include_once 'functions.php';
 			?>
 			<div>
 				<a href="cut_pages.php?p=<?= $page_number ?>">
-					برش مجدد این صفحه
+					Cut this page again
 				</a>
 			</div>
 			<div>
 				<a href="?p=<?= $page_number - 1  ?>" style="margin:20px">
-					صفحه قبلی
+					Previous Page
 				</a>
 				<a href="?p=<?= $page_number + 1  ?>">
-					صفحه بعدی
+					Next Page
 				</a>
 			</div>
 			<form method="POST">
 				<div>	
 					<label for="cut_right">
-						برش ستون راست
+						Cut right column
 					</label>
 					<input type="text" name="cut_right" autocomplete="off" autofocus><br>
 				</div>
 				<br>
 				<div>
 					<label for="cut_left">
-						برش ستون چپ
+						Cut left column
 					</label>
 					<input type="text" name="cut_left" autocomplete="off"><br>
 				<div>
@@ -86,10 +86,10 @@ include_once 'functions.php';
 			</div>
 			<div>
 				<a href="?p=<?= $page_number - 1  ?>" style="margin:20px">
-					صفحه قبلی
+					Previous Page
 				</a>
 				<a href="?p=<?= $page_number + 1  ?>">
-					صفحه بعدی
+					Next page
 				</a>
 			</div>
 		</center>
